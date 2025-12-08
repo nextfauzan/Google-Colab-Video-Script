@@ -93,15 +93,21 @@ print("✅ Video berhasil dibuat →", output_path)
 
 ---
 
-# ✅ Kelebihan metode ini membuat gambar menjadi video ke video
+# Kelebihan metode ini membuat gambar menjadi video ke video
 
-✅ Tidak tergantung diffusers,
-✅ Tidak tergantung huggingface_hub,
-✅ Tidak tergantung versi Python,
-✅ Jalan di Colab Python 3.12,
-✅ Tidak error import,
-✅ Lebih stabil,
-✅ Cocok untuk semua model video
+Tidak tergantung diffusers
+
+Tidak tergantung huggingface_hub
+
+Tidak tergantung versi Python
+
+Jalan di Colab Python 3.12
+
+Tidak error import
+
+Lebih stabil
+
+Cocok untuk semua model video
 
 ---
 
