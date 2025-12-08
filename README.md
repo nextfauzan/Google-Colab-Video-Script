@@ -6,7 +6,7 @@
 Open https://colab.research.google.com
 
 
-Silakan jalankan ini:
+# Kemudian jalankan ini :
 
 ```python
 !pip install imageio --quiet
