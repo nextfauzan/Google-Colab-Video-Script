@@ -1,15 +1,5 @@
-Baik…
-Error-nya sudah makin jelas:
 
-🔥 **Diffusers yang kamu install tidak cocok dengan Python 3.12 di Colab.**
-🔥 Semua versi diffusers lama (0.24 – 0.27) memakai konstanta yang sudah dihapus di Python 3.12 environment.
-
-➡️ Jadi **selama Colab memakai Python 3.12 → diffusers akan selalu error import**
-(Karena modul constants berubah)
-
----
-
-# ✅ Solusi yang benar dan paling stabil di Colab sekarang
+Open https://colab.research.google.com
 
 👉 **Tidak memakai diffusers sama sekali**
 👉 Tapi memakai **pipeline langsung dari model repo yang tidak bergantung diffusers**
