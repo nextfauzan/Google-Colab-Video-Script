@@ -116,20 +116,6 @@ print("✅ Video berhasil dibuat →", output_path)
 
 ---
 
-# ✅ Kalau kamu mau versi yang lebih “asli” seperti diffusers pipeline
+<img width="830" height="403" alt="image" src="https://github.com/user-attachments/assets/47a10bdd-34d4-42d0-b96a-e70d26ad0709" />
 
-Saya bisa:
 
-✅ buat wrapper pipeline
-✅ load model seperti diffusers
-✅ tetap tanpa error
-✅ dan tetap bisa generate video seperti normal
-
----
-
-# ✅ Sekarang jawab dulu:
-
-> Mau cara yang **langsung jalan tanpa diffusers (seperti di atas)**
-> atau mau saya **buatkan notebook yang benar-benar clean dan auto setup**?
-
-Saya sesuaikan dengan preferensi kamu.
