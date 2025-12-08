@@ -14,7 +14,7 @@ Silakan jalankan ini:
 
 ---
 
-# Langkah 1 — Download model langsung
+# 1 Download model langsung
 
 ```python
 !git clone https://huggingface.co/ali-vilab/i2vgen-xl
@@ -22,7 +22,7 @@ Silakan jalankan ini:
 
 ---
 
-# Langkah 2 — Load model manual
+# 2 Load model manual
 
 ```python
 import torch
@@ -42,7 +42,7 @@ print("✅ Model berhasil dimuat. Jumlah weight:", len(weights))
 
 ---
 
-# Langkah 3 — Upload gambar
+# 3 Upload gambar
 
 ```python
 from google.colab import files
@@ -54,7 +54,7 @@ input_image = Image.open(image_path).convert("RGB")
 
 ---
 
-# Langkah 4 — Jalankan inference manual (simplified)
+# 4 Jalankan inference manual (simplified)
 
 Model i2vgen-xl bekerja seperti autoencoder → kita panggil seperti berikut:
 
@@ -82,7 +82,7 @@ with torch.no_grad():
 
 ---
 
-# Langkah 5 — Simpan video
+# 5 Simpan video
 
 ```python
 output_path = "hasil_video.mp4"
