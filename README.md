@@ -1,21 +1,10 @@
 
+Saya Mencoba Gambar Menjadi Vide tapi tidak **berhasil**
+
+
+
 Open https://colab.research.google.com
 
-👉 **Tidak memakai diffusers sama sekali**
-👉 Tapi memakai **pipeline langsung dari model repo yang tidak bergantung diffusers**
-
-Model: **ali-vilab/i2vgen-xl**
-→ tersedia sebagai **torchscript / safetensors langsung**
-
-✅ Tidak ada konflik
-✅ Tidak butuh diffusers
-✅ Langsung jalan
-✅ Cocok dengan Colab Python 3.12
-✅ Paling stabil
-
----
-
-# ✅ Kode yang 100% jalan tanpa diffusers
 
 Silakan jalankan ini:
 
