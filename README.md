@@ -14,7 +14,7 @@ Silakan jalankan ini:
 
 ---
 
-# ✅ Langkah 1 — Download model langsung
+# Langkah 1 — Download model langsung
 
 ```python
 !git clone https://huggingface.co/ali-vilab/i2vgen-xl
@@ -22,7 +22,7 @@ Silakan jalankan ini:
 
 ---
 
-# ✅ Langkah 2 — Load model manual
+# Langkah 2 — Load model manual
 
 ```python
 import torch
@@ -42,7 +42,7 @@ print("✅ Model berhasil dimuat. Jumlah weight:", len(weights))
 
 ---
 
-# ✅ Langkah 3 — Upload gambar
+# Langkah 3 — Upload gambar
 
 ```python
 from google.colab import files
@@ -54,7 +54,7 @@ input_image = Image.open(image_path).convert("RGB")
 
 ---
 
-# ✅ Langkah 4 — Jalankan inference manual (simplified)
+# Langkah 4 — Jalankan inference manual (simplified)
 
 Model i2vgen-xl bekerja seperti autoencoder → kita panggil seperti berikut:
 
@@ -82,7 +82,7 @@ with torch.no_grad():
 
 ---
 
-# ✅ Langkah 5 — Simpan video
+# Langkah 5 — Simpan video
 
 ```python
 output_path = "hasil_video.mp4"
@@ -93,7 +93,7 @@ print("✅ Video berhasil dibuat →", output_path)
 
 ---
 
-# ✅ Kelebihan metode ini
+# ✅ Kelebihan metode ini membuat gambar menjadi video ke video
 
 ✅ Tidak tergantung diffusers
 ✅ Tidak tergantung huggingface_hub
@@ -104,6 +104,12 @@ print("✅ Video berhasil dibuat →", output_path)
 ✅ Cocok untuk semua model video
 
 ---
+
+# tapi kalian harus buat framenya sendiri sampai 5 frame gambar dan itu sangat berat sekali
+
+---
+
+**Coba Lihat Gambar di bawah ini 🥲**
 
 <img width="830" height="403" alt="image" src="https://github.com/user-attachments/assets/47a10bdd-34d4-42d0-b96a-e70d26ad0709" />
 
