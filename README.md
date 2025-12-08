@@ -1,5 +1,5 @@
 
-Saya Mencoba Gambar Menjadi Vide tapi tidak **berhasil**
+Saya mencba mengubah **Gambar** menjadi video tapi tidak **berhasil**
 
 
 
